@@ -1,0 +1,18 @@
+body {
+    background-color: #111111;
+    color: white;
+    font-family:Georgia;
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+}
+
+span {
+    color: #a855f7;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
