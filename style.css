@@ -41,7 +41,19 @@ span {
     color: #a855f7;
 }
 
-.card a {
+.c2ard a {
     color: white;
     text-decoration: none;
 }
+
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 18px;
+    background-color: #a855f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
