@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #fbf9f9;
+    color: rgba(19, 1, 1, 0.905);  
+}
+
+#Biographie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+}
+
+#Carrière  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+}
+
+#Palmarès {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+}
+
+#Compétitions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+}
+
+[id="Homme d'affaire"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+    width: 100%;
+}
+
+[id="Réussite financière"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+    width: 100%;
+}
+
+[id="Fortune1"] {
+    display: flex;
+    object-fit: fill;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #b71515;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #102a4320;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+
+
+
+@media only screen and (max-width: 321px) and (max-width: 425px){}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1024px) {}
