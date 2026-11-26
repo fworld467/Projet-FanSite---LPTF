@@ -6,66 +6,411 @@ body {
     margin: 0;
 }
 
- span {
+h1 {
+    font-size: 45px;
+}
+
+span {
     color: #a855f7;
 }
 
-.actualite  {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.actualite img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.evenements {
-    text-align: center;
-    margin-top: 50px;
-}
-.evenements img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.entier img {
+.entier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    margin: 40px;
+    margin-top: 50px;
+}
+
+.actualite {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.evenements {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .realisation {
-    text-align: center;
-    margin-top: 50px;
-
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
 }
+
+.photos {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.liens {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reseaux {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.actualite img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.evenements img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .realisation img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-
-
-footer img {
-    width: 300px;
-    height: 300px;
+.photos img {
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
 
+.contact img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.liens img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.reseaux img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 a {
-    display: block;
-    width: fit-content;
-    margin: 10px auto 20px auto;
-    padding: 8px 18px;
+    display: inline-block;
     background-color: #a855f7;
     color: white;
+    padding: 10px;
+    margin: 10px;
     text-decoration: none;
     border-radius: 8px;
 }
+
+body {
+    background-color: #111111;
+    color: white;
+    font-family: Georgia;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+span {
+    color: #a855f7;
+}
+
+.entier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.actualite {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.evenements {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.realisation {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photos {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.liens {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reseaux {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.actualite img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.evenements img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.realisation img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photos img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contact img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.liens img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.reseaux img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+a {
+    display: inline-block;
+    background-color: #a855f7;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+.galerie-photos {
+    margin-top: 50px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photos img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.galerie-videos {
+    margin-top: 50px;
+}
+
+.videos video {
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .videos video {
+        width: 90%;
+    }
+
+}
+
+.liste-evenements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.evenement-carte {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.evenement-carte img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .liste-evenements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .evenement-carte {
+        width: 80%;
+    }
+
+}
+
+.liste-actualites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.carte-actualite {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carte-actualite img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .liste-actualites {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte-actualite {
+        width: 80%;
+    }
+
+}
+
+.liste-palmares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.carte-palmares {
+    background-color: #1c1c1c;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carte-palmares img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .liste-palmares {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carte-palmares {
+        width: 80%;
+    }
+
+}
+
